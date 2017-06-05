@@ -1,0 +1,27 @@
+# QA env
+service.host = put here your server url
+
+# Services base path
+service1.base.path = put here manufacturer endpoint base path
+service2.base.path = put here model endpoint base path
+service3.base.path = put here model year endpoint path
+
+# Request query params
+request.param1 = put here locale identifier
+request.param2 = put here manufacturer identifier
+request.param3 = put here model identifier
+request.auth = auth field name
+
+# Request query param values
+request.auth.value = auth value
+
+# Test data files location
+## File path format for Linux OS
+file.input = /src/test/test-data/locales.xlsx
+## File path format for Windows OS
+#file.input = \\src\\test\\test-data\\locales.xlsx
+
+## File path format for Linux OS
+file.output = /src/test/test-report/cars-available.xlsx
+## File path format for Windows OS
+#file.input = \\src\\test\\test-data\\cars-available.xlsx
